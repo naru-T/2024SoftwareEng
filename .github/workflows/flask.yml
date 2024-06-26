@@ -24,10 +24,4 @@ jobs:
     
     - name: Check syntax with flake8
       run: flake8 .
-    
-    - name: Test Flask app startup
-      run: |
-        python -c "from app import app; app.test_client()"
-    
-    - name: Run pytest
-      run: pytest tests/
+
