@@ -24,4 +24,10 @@ jobs:
     
     - name: Analysing the code with pylint
       run: |
-        pylint $(git ls-files '*.py')
+        pylint --output-format=parseable $(git ls-files '*.py') > pylint_report.txt
+
+    - name: Upload pylint report
+      uses: actions/upload-artifact@v3
+      with:
+        name: pylint-report
+        path: pylint_report.txt
