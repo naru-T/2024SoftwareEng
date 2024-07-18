@@ -55,4 +55,4 @@ plugins:
 #   - vendor/ruby/
 
 header_pages:
-- title.md
+  - title.md
