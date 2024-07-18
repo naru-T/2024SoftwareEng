@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "git memo"
-permalink: /git-memo
+permalink: /docs/git-memo
 ---
 
 # ソフトウェア工学 2024
@@ -17,7 +17,8 @@ gitとは、、、、、。
 git commit
 ```
 
-現在ステージされている変更のスナップショットを保存する。
+現在ステージされている変更のスナップショットを保存する。・・・・
+
 
 
 
