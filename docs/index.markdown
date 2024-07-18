@@ -10,5 +10,5 @@ title: "ソフトウェア工学　2024"
 
 git/github演習
 
-[git memo](https://https://naru-t.github.io/docs/git-memo)
+[git memo](https://naru-t.github.io/docs/git-memo)
 
